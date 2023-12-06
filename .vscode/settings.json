@@ -1,0 +1,9 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/35a2a121-16b4-4dbc-bd0b-5238d56997de/resourceGroups/c4c/providers/Microsoft.Web/sites/c4cmb",
+    "appService.deploySubpath": "c4c",
+    "appService.showBuildDuringDeployPrompt": false
+}

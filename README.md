@@ -56,12 +56,6 @@ This message board allowed users to post and view messages. The application is b
    3. app.js: 
       - The frontend JavaScript file that loads messages and handles displaying new messages.
 
-### Backend Components
-   1. server.js
-      - The backend file that sets up an Express server. It retrives messages from and adds messages to the SQLite database. 
-   2. messages.db
-      - The SQLite database file storing the messages. A message contains the conent of the message and the timestamp of when it was posted.
-
 ## Requirements
    - Displays an error message when message is empty or greater than 128 characters
    - Messages diplay date and time of post and are ordered from most to least recent

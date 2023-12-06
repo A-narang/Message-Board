@@ -2,12 +2,6 @@
 
 This message board allowed users to post and view messages. The application is built using a combination of Node.js, Express.js, SQLite, HTML, CSS, and JavaScript.
 
-## Requirements
-   - Displays an error message when message is empty or greater than 128 characters
-   - Messages diplay date and time of post and are ordered from most to least recent
-   - Users on different computers can view the messages when the page is refreshed
-
-
 ## How to Start the Application
 
 ### Cloud Version: https://c4cmb.azurewebsites.net/
@@ -66,4 +60,9 @@ This message board allowed users to post and view messages. The application is b
    1. server.js
       - The backend file that sets up an Express server. It retrives messages from and adds messages to the SQLite database. 
    2. messages.db
-      - The SQLite database file storing the messages. A message contains the conent of the message and the timestamp of when it was posted. 
+      - The SQLite database file storing the messages. A message contains the conent of the message and the timestamp of when it was posted.
+
+## Requirements
+   - Displays an error message when message is empty or greater than 128 characters
+   - Messages diplay date and time of post and are ordered from most to least recent
+   - Users on different computers can view the messages when the page is refreshed

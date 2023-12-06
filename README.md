@@ -1,6 +1,6 @@
 # Message Board Application
 
-This message board allowed users to post and view messages. The application is built using a combination of Node.js, Express.js, SQLite, HTML, CSS, and JavaScript.
+This message board allowes users to post and view messages. The application is built using a combination of Node.js, Express.js, SQLite, HTML, CSS, and JavaScript.
 
 ## How to Start the Application
 
@@ -9,7 +9,7 @@ This message board allowed users to post and view messages. The application is b
 ### To Start Locally:
   1. git clone https://github.com/A-Narang/Message-Board.git
   2. cd c4c in the terminal
-  3. Start the server with by entering npm start in the terminal
+  3. Enter npm start in the terminal
   4. go to http://localhost:8080/
 
 ## Overview
@@ -25,7 +25,7 @@ This message board allowed users to post and view messages. The application is b
 ### Data Flow
    1. Posting a Message 
       - User inputs a message in the front end,
-      - When "Post" is pressed the postMessage funcntion in scripts.js is called,
+      - When "Post" is pressed the postMessage function in scripts.js is called,
       - If the message is empty ot greater than 128 characters an error is given.
       - if the message is valid a message object is created and the message is added to the SQLite Database.
 
@@ -49,7 +49,7 @@ This message board allowed users to post and view messages. The application is b
 
 ### Frontend Components
 
-   1. Index.html:
+   1. index.html:
       - The HTML file containing the structure of the message board.
    2. style.css
       - Basic styling for the message board interface, making it user-friendly.
